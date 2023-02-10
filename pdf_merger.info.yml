@@ -1,0 +1,6 @@
+name: PDF Merger
+type: module
+description: Merge multiple pdf files using pdftk
+core: 8.x
+package: Custom
+configure: pdf_merger.settings

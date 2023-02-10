@@ -1,0 +1,6 @@
+parameters:
+    pdf.pdftk_merger.class: \Drupal\pdf_merger\Service\PdfMerger
+services:
+  pdf.pdftk_merger:
+    class: '%pdf.pdftk_merger.class%'
+    arguments: ['@config.factory', '@logger.factory', '@file_system']

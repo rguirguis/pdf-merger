@@ -1,0 +1,7 @@
+pdf_merger.settings:
+  path: '/admin/config/services/pdfmerger/settings'
+  defaults:
+    _form: 'Drupal\pdf_merger\Form\PdfMergerSettingsForm'
+    _title: 'PDF Merger Settings'
+  requirements:
+    _permission: 'access pdf merger'
